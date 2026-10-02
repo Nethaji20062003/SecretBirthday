@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>A Little Something ✨</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Great+Vibes&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================================
+         BACKGROUND
+         ========================================= -->
+
+    <div class="aurora aurora-one"></div>
+    <div class="aurora aurora-two"></div>
+    <div class="aurora aurora-three"></div>
+
+    <div class="stars" id="stars"></div>
+    <div class="fireflies" id="fireflies"></div>
+
+
+    <!-- =========================================
+         SCREEN 1
+         ========================================= -->
+
+    <section class="screen active" id="screen1">
+
+        <div class="moon">
+            <div class="moon-glow"></div>
+        </div>
+
+        <div class="intro-card">
+
+            <p class="small-title">
+                A LITTLE SOMETHING
+            </p>
+
+            <h1>
+                BEFORE THE<br>
+                DAY BEGINS
+            </h1>
+
+            <p class="intro-text">
+                A little magic before tomorrow.
+            </p>
+
+            <button class="magic-btn" onclick="goToScreen(2)">
+                <span>DISCOVER</span>
+                <b>✦</b>
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         SCREEN 2
+         ========================================= -->
+
+    <section class="screen" id="screen2">
+
+        <div class="middle-card">
+
+            <div class="floating-heart">♡</div>
+
+            <p class="small-title">
+                JUST A LITTLE REMINDER
+            </p>
+
+            <h2>
+                Some nights<br>
+                feel different.
+            </h2>
+
+            <div class="line"></div>
+
+            <p>
+                And sometimes,<br>
+                tomorrow feels a little more special.
+            </p>
+
+            <button class="magic-btn" onclick="goToScreen(3)">
+                <span>CONTINUE</span>
+                <b>→</b>
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         SCREEN 3
+         ========================================= -->
+
+    <section class="screen" id="screen3">
+
+        <div class="tomorrow-content">
+
+            <p class="small-title">
+                TOMORROW
+            </p>
+
+            <div class="date-display">
+
+                <span>02</span>
+
+                <div class="arrow">
+                    ↓
+                </div>
+
+                <strong>03</strong>
+
+            </div>
+
+            <p class="date-month">
+                OCTOBER
+            </p>
+
+            <p class="coming-text">
+                Something beautiful is coming.
+            </p>
+
+            <div class="countdown">
+
+                <div class="time-box">
+                    <span id="hours">00</span>
+                    <small>HOURS</small>
+                </div>
+
+                <div class="colon">:</div>
+
+                <div class="time-box">
+                    <span id="minutes">00</span>
+                    <small>MINUTES</small>
+                </div>
+
+                <div class="colon">:</div>
+
+                <div class="time-box">
+                    <span id="seconds">10</span>
+                    <small>SECONDS</small>
+                </div>
+
+            </div>
+
+            <p class="return-text">
+                COME BACK TOMORROW ✦
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         GRAND BIRTHDAY REVEAL
+         ========================================= -->
+
+    <section class="screen midnight-screen" id="midnightScreen">
+
+        <div class="grand-stars">
+
+            <span>✦</span>
+            <span>✧</span>
+            <span>★</span>
+            <span>✦</span>
+            <span>♡</span>
+            <span>♥</span>
+            <span>✧</span>
+            <span>★</span>
+            <span>♡</span>
+            <span>✦</span>
+            <span>♥</span>
+            <span>✧</span>
+
+        </div>
+
+        <div class="birthday-glow"></div>
+
+
+        <div class="grand-wish">
+
+            <div class="wish-top">
+                ✦ A SPECIAL WISH ✦
+            </div>
+
+
+            <h1 class="happy-text">
+                WISH YOU
+            </h1>
+
+            <h1 class="birthday-text">
+                HAPPY BIRTHDAY
+            </h1>
+
+            <h1 class="to-you-text">
+                TO YOU
+            </h1>
+
+
+            <div class="name-wrapper">
+
+                <div class="name-sparkles">
+                    ✦
+                </div>
+
+                <h2 class="birthday-name">
+                    SARANYA SRI
+                </h2>
+
+                <div class="name-sparkles right">
+                    ✦
+                </div>
+
+            </div>
+
+
+            <div class="wish-divider">
+
+                <span>♡</span>
+                <i></i>
+                <span>✦</span>
+                <i></i>
+                <span>♡</span>
+
+            </div>
+
+
+            <p class="beautiful-wish">
+
+                Wishing you a beautiful year ahead,<br>
+                filled with happiness, peaceful moments,<br>
+                and countless reasons to smile. ✨
+
+            </p>
+
+
+            <div class="heart-row">
+
+                <span>♡</span>
+                <span>♥</span>
+                <span>♡</span>
+                <span>♥</span>
+                <span>♡</span>
+
+            </div>
+
+
+            <div class="final-line">
+                HAVE A BEAUTIFUL BIRTHDAY ✨
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
